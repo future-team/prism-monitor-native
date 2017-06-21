@@ -41,16 +41,16 @@
           content="default-src *;
                script-src 'self' 'unsafe-inline' 'unsafe-eval'
                            127.0.0.1:*
-                           http://*.dpfile.com
+                           https://*.dpfile.com
                            ;
                style-src  'self' 'unsafe-inline'
                            127.0.0.1
-                           http://*.dpfile.com
+                           https://*.dpfile.com
     ">
 
     <link rel="stylesheet" type="text/css" href="https://www.dpfile.com/app/iris-common-static/personal-info.min.css" />-->
     <title>loading</title>
-    <meta http-equiv="refresh" content="0; url='http://future.sankuai.com/monitor/'">
+    <!--<meta http-equiv="refresh" content="0; url='https://www.baidu.com'">-->
 </head>
 
 <body>
@@ -60,11 +60,10 @@
     <!--<script src="http://127.0.0.1:3005/common.js"></script>
     <script src="http://127.0.0.1:3005/bundle.js"></script>-->
     <script type="text/javascript">
-        // app.initialize();
 
-        // document.addEventListener('deviceready', function(){
-        //     cordova.InAppBrowser.open('http://h5.dianping.com/app/iris-common-static/personal-info.html', '_blank');
-        // }, false);
+        document.addEventListener('deviceready', function(){
+            cordova.InAppBrowser.open('http://future.test.sankuai.com/monitor/', '_blank','location=no,toolbar=no');
+        }, false);
     </script>
 </body>
 

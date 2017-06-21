@@ -75,7 +75,7 @@
     <feature name="InAppBrowser">
         <param name="ios-package" value="CDVInAppBrowser" />
     </feature>
-    <name>Prism</name>
+    <name>prism</name>
     <description>
         Hello World sample application that responds to the deviceready event.
     </description>
@@ -83,7 +83,7 @@
         PhoneGap Team
     </author>
     <content src="index.html" />
-    <access origin="*" />
+    <access origin=".*" subdomains="true" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
