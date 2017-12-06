@@ -79,8 +79,8 @@
     <description>
         前端web端页面异常监控APP.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="future_team@163.com" href="">
+        Future Team
     </author>
     <content src="index.html" />
     <access origin=".*" subdomains="true" />
