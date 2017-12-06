@@ -68,9 +68,9 @@
             background: transparent;
         }
         html{
-            background: url('img/background.jpeg') no-repeat center center;
+            /* background: url('img/background.jpeg') no-repeat center center;
             height: 100%;
-            background-size: 100%;
+            background-size: 100%; */
             /*-webkit-filter: blur(10px);*/
         }
         .btn{
@@ -80,10 +80,10 @@
 </head>
 
 <body>
-    <div id="root" class="pm-root">
+    <!-- <div id="root" class="pm-root">
         <button type="button" class="btn btn-default" onclick="pmOpen('http://future.test.sankuai.com/monitor/')">测试环境</button>
         <button type="button" class="btn btn-default" onclick="pmOpen('https://future.sankuai.com/monitor/')">生产环境</button>
-    </div>
+    </div> -->
     <script type="text/javascript" src="cordova.js"></script>
     <!--<script src="http://127.0.0.1:3005/common.js"></script>
     <script src="http://127.0.0.1:3005/bundle.js"></script>-->
@@ -92,7 +92,7 @@
             cordova.InAppBrowser.open(url, '_blank','location=no,toolbar=no');
         }
         document.addEventListener('deviceready', function(){
-            //cordova.InAppBrowser.open('http://future.test.sankuai.com/monitor/', '_blank','location=no,toolbar=no');
+            cordova.InAppBrowser.open('https://future.sankuai.com/monitor/', '_parent','location=no,toolbar=no');
         }, false);
     </script>
 </body>
