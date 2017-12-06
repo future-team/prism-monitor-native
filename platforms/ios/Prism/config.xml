@@ -77,7 +77,7 @@
     </feature>
     <name>棱镜</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        前端web端页面异常监控APP.
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
